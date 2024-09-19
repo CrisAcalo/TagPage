@@ -32,6 +32,20 @@
             @endif
 
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
+                {{-- contenedor que imprimirá una lista de los errores con un foreach --}}
+
+                @if ($errors->any())
+                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg relative" role="alert">
+                        <strong class="font-bold">Error!</strong>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                
+
                 <div class="flex justify-center">
                     <h1 class="text-7xl font-bold text-red-500 [text-shadow:_4px_4px_15px_rgb(239_68_68_/_0.6)]">Tag Page</h1>
                 </div>
