@@ -67,6 +67,9 @@
                                                 Tag name
                                             </th>
                                             <th scope="col" class="px-6 py-3">
+                                                Slug
+                                            </th>
+                                            <th scope="col" class="px-6 py-3">
                                                 OP
                                             </th>
                                         </tr>
@@ -76,6 +79,7 @@
                                         
                                         <tr class="bg-white border-b">
                                             <td class="px-6 py-4">{{$tag->name}}</td>
+                                            <td class="px-6 py-4">{{$tag->slug}}</td>
                                             <td class="px-6 py-4">
                                                 <form action="{{route('tags.destroy', $tag->id)}}" method="POST">
                                                     @csrf
