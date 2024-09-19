@@ -3,9 +3,11 @@
 
 This is a project that I create to learn testing in Laravel. It was developed with TDD methodology. For the momento you can find the test for Home view, Create and Delete operations and Validations.
 
-![N|Solid](https://static.platzi.com/media/user_upload/127.0.0.1_8000_-a3e79b7e-8dc1-434f-85eb-54cc2724f0be.jpg)
+<!-- Mobile screenshot -->
+![N|Solid](https://static.platzi.com/media/user_upload/127.0.0.1_8000_-74d0d976-2c64-4dde-a8ff-59a4dfa78856.jpg)
 
-![Build Status](https://static.platzi.com/media/user_upload/127.0.0.1_8000_-68dce5b1-1a10-4ac9-8a89-481311ff63ca.jpg)
+<!-- Desktop screenshot -->
+<!-- ![Build Status](https://static.platzi.com/media/user_upload/127.0.0.1_8000_-68dce5b1-1a10-4ac9-8a89-481311ff63ca.jpg) -->
 
 
 ### Considerations
